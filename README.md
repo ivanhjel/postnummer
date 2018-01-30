@@ -2,9 +2,16 @@
 
 Hele Norge er delt inn i postnummerområder og datasettet gir deg de offisielle postnumrenes utstrekning i areal.
 
+Datasettet er tilgjengelig her:
 https://data.norge.no/data/statens-kartverk/postkretser-i-norge
 
-Problemet er at dette kun er tilgjengelig i SOSI eller GML. 
+# Problemet
 
-I tillegg har jeg brukt Douglas Peucker-algoritmen for å redusere antall punkter i polygonene uten å miste den gode nøyaktigheten. 
+Datasettet er kun tilgjengelig i WFS, GML eller SOSI. 
+
+# Løsningen
+
+1. GML ble konvertert til geojson. 
+2. Unødvendige datafelter ble fjernet med CartoDB. 
+3. Douglas-Peucker algoritmen ble brukt til å redusere filen fra 75mb til 5mb uten at det gikk utover kvaliteten til datasettet. 
 
