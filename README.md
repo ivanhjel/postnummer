@@ -1,4 +1,4 @@
-# Postnummerområder i GeoJson. 
+# Postnummerområder i .geojson. 
 
 Hele Norge er delt inn i postnummerområder og datasettet gir deg de offisielle postnumrenes utstrekning i areal.
 
