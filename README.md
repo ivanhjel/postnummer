@@ -13,5 +13,5 @@ Datasettet er kun tilgjengelig i WFS, GML eller SOSI.
 
 1. GML ble konvertert til geojson. 
 2. Unødvendige datafelter ble fjernet med CartoDB. 
-3. Douglas-Peucker algoritmen ble brukt til å redusere filen fra 75mb til 5mb uten at det gikk utover kvaliteten til datasettet. 
+3. Douglas-Peucker algoritmen ble brukt for å redusere filen fra 75mb til 5mb uten at det gikk utover kvaliteten til datasettet. 
 
