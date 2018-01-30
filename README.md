@@ -1,6 +1,6 @@
 # Postnummerområder i .geojson. 
 
-Hele Norge er delt inn i postnummerområder og datasettet gir deg de offisielle postnumrenes utstrekning i areal.
+Hele Norge er delt inn i postnummerområder og datasettet fra Kartverket gir deg de offisielle postnumrenes utstrekning i areal.
 
 Datasettet er tilgjengelig her:
 https://data.norge.no/data/statens-kartverk/postkretser-i-norge
